@@ -1,0 +1,52 @@
+
+/* <!--p> pour etablir une division pour le menu</p--> */
+nav {
+  background-color:black;;
+  text-align: center;
+  display: flex;
+
+
+}
+/* <!--p> pour lister le menu quand on mit le cureur </p--> */
+li a:hover {
+  text-decoration: underline;
+  transform: 0.5s;
+  font-family:sans-serif;
+
+}
+/* <!--p> pour liste d'éléments sans ordre particulier  de menu</p--> */
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex:2;
+  display: flex;
+
+}
+/* <!--p> pour représenter une section d'une page ayant des liens vers d'autres page</p--> */
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+
+}
+
+/* <!--p> crée un lien hypertexte vers des pages web</p--> */
+nav a {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:white ;
+}
+/* <!--p> représente un formulaire</p--> */
+
+nav form {
+  flex: 0;
+  display: flex;
+  align-items:center;
+
+}
+
+
+p {
+  font-size: 24px;
+}
